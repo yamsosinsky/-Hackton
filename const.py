@@ -36,6 +36,7 @@ dict_of_questions = {QUESTION1: True,
 WINDOW_HIGHT = 600
 WINDOW_WIDTH = 700
 SIZE = (WINDOW_WIDTH, WINDOW_HIGHT)
+BACKGROUND_QUESTION = "earthframe.png"
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 QUESTION_FONT = pygame.font.SysFont("comicsans", 80)

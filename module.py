@@ -10,7 +10,8 @@ def print_question(list_of_questions):
     y = 110
     screen = pygame.display.set_mode(const.SIZE)
     pygame.display.set_caption("QUESTION")
-    screen.fill(const.WHITE)
+    img = pygame.image.load(const.BACKGROUND_QUESTION).convert()
+    screen.blit(img, (0, 0))
     random_question = list_of_questions.pop(random_index)
     random_question = random_question.split("\n")
     for i in range(len(random_question)):
