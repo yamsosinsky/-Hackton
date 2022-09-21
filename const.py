@@ -1,4 +1,16 @@
 import pygame
+
+
+WIDTH = 700
+HEIGHT = 700
+BLUE = (0,162,232)
+BLACK = (0,0,0)
+WHITE = (255,255,255)
+BOARD_IMAGE = "C:/Users/shira/Desktop/snakes and ladder/board1.png"
+PLAYER_IMAGE = "C:/Users/shira/Desktop/snakes and ladder/boy2.png"
+
+
+
 pygame.font.init()
 QUESTION1 = "The materials that a person takes for his different usages are called natural resources."
 QUESTION2 = "Airplane is the most environmentally friendly means of transportation."
